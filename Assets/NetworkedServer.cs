@@ -12,7 +12,7 @@ public class NetworkedServer : MonoBehaviour
     int reliableChannelID;
     int unreliableChannelID;
     int hostID;
-    int socketPort = 5491;
+    int socketPort = 49155; //changed port to in class
 
     // Start is called before the first frame update
     void Start()
